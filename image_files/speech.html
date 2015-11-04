@@ -1,0 +1,34 @@
+<!-- Made by : Rounaq -->
+
+<html>
+<head>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"> </script>
+
+	<script type="text/javascript">
+		var recognizer = new webkitSpeechRecognition();
+recognizer.lang = "en";
+recognizer.onresult = function(event) {
+    if (event.results.length > 0) {
+        var result = event.results[event.results.length-1];
+        if(result.isFinal) {
+           //alert(result[0].transcript);
+
+           sttt = result[0].transcript;
+
+           $.get("/speech?string="+sttt)
+
+            setTimeout(function(){
+            	recognizer.start();
+            } , 200);
+            
+        }
+    }  
+};
+recognizer.start();
+	</script>
+</head>
+<body>
+
+</body>
+</html>

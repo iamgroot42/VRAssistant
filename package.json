@@ -1,0 +1,17 @@
+{
+  "name": "html2img",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^1.2.0",
+    "install": "^0.1.8",
+    "npm": "^3.3.6",
+    "phantomjs": "^1.9.18"
+  }
+}
