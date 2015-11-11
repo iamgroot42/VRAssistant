@@ -1,4 +1,4 @@
-# Pseudo Jarvis : VR Assistant
+#  VR Assistant
 
 Instructions for setup
 ------------
@@ -15,8 +15,7 @@ Instructions for setup
         pip install requests
         pip install tungsten
         pip install facepy
-        pip install xml.etree.ElementTree
-        pip installsubprocess
+        pip install subprocess
         pip install tts_manage
         pip install flask
 
