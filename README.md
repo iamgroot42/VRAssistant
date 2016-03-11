@@ -8,16 +8,9 @@ Instructions for setup
         git clone git@github.com:iamgroot42/PseudoJarvis.git VR_Assistant
         cd VR_Assistant
         
-- Install following python packages:
+- Install  python dependencies:
 
-        pip install pytube
-        pip install json
-        pip install requests
-        pip install tungsten
-        pip install facepy
-        pip install subprocess
-        pip install tts_manage
-        pip install flask
+        pip install -r requirements
 
 Using the Script
 ------------
